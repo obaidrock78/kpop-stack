@@ -20,9 +20,9 @@ export const meta: MetaFunction = () => {
   return { title: "New Remix App" };
 };
 
-export const links: LinksFunction = () => {
-  return [{ rel: "stylesheet", href: tailwindStylesheetUrl }];
-};
+// export const links: LinksFunction = () => {
+//   return [{ rel: "stylesheet", href: tailwindStylesheetUrl }];
+// };
 
 export const loader: LoaderFunction = async ({ request }) => {
   return json({
